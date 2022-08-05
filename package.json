@@ -1,0 +1,28 @@
+{
+    "name": "bouken",
+    "version": "1.0.0",
+    "private": true,
+    "description": "日本語の冒険",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iuriioapps/bouken.git"
+    },
+    "bugs": {
+        "url": "https://github.com/iuriioapps/bouken/issues"
+    },
+    "homepage": "https://github.com/iuriioapps/bouken#readme",
+    "keywords": [
+        "react"
+    ],
+    "author": "Iurii Okhmat",
+    "license": "ISC",
+    "scripts": {
+        "postinstall": "npm run install:ui",
+        "install:ui": "cd ui && npm ci --also-dev",
+        "dev": "run-p dev:*",
+        "dev:ui": "cd ui && npm run dev"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}

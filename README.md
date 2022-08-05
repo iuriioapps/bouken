@@ -1,2 +1,3 @@
-# bouken
-日本語の冒険
+# Bouken - Adventure in Japanese - 日本語の冒険
+
+
